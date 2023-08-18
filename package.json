@@ -1,0 +1,31 @@
+{
+  "name": "user-identity-tracker",
+  "version": "1.0.0",
+  "description": "Una biblioteca esencial para aplicaciones Node.js que implementa una identificación continua de usuarios, utilizando datos de bases de datos para personalizar la interfaz y optimizar el control de acceso en tiempo real.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martadominguezm/user-identity-tracker.git"
+  },
+  "keywords": [
+    "continuous",
+    "user",
+    "identification",
+    "nodejs",
+    "experience",
+    "access",
+    "control"
+  ],
+  "author": "Marta Domínguez Moraga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martadominguezm/user-identity-tracker/issues"
+  },
+  "homepage": "https://github.com/martadominguezm/user-identity-tracker#readme"
+}
