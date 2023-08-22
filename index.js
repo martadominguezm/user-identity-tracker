@@ -3,7 +3,10 @@ const {
     getSessions,
     calculateProbabilities,
     improveUserExperience,
-    accessControl,
+    accessControl
+} = require('./lib/_helpers');
+
+const {    
     initializeFirebase,
     addDoc,
     app,
@@ -24,7 +27,7 @@ const {
     set,
     signInWithEmailAndPassword,
     where
-} = require('./lib/_helpers');
+} = require('./firebase');
 
 function initialize(firebaseConfig) {
     initializeFirebase(firebaseConfig);
