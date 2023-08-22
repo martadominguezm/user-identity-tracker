@@ -4,7 +4,26 @@ const {
     calculateProbabilities,
     improveUserExperience,
     accessControl,
-    initializeFirebase
+    initializeFirebase,
+    addDoc,
+    app,
+    auth,
+    collection,
+    collectionGroup,
+    db,
+    doc,
+    firestore,
+    functions,
+    get,
+    getDoc,
+    getDocs,
+    onAuthStateChanged,
+    orderBy,
+    query,
+    ref,
+    set,
+    signInWithEmailAndPassword,
+    where
 } = require('./lib/_helpers');
 
 function initialize(firebaseConfig) {
@@ -16,5 +35,24 @@ module.exports = {
     calculateProbabilities,
     improveUserExperience,
     accessControl,
-    initialize 
+    initialize,
+    addDoc,
+    app,
+    auth,
+    collection,
+    collectionGroup,
+    db,
+    doc,
+    firestore,
+    functions,
+    get,
+    getDoc,
+    getDocs,
+    onAuthStateChanged,
+    orderBy,
+    query,
+    ref,
+    set,
+    signInWithEmailAndPassword,
+    where
 };
