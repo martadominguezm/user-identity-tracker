@@ -1,7 +1,7 @@
-import { initializeApp } from 'firebase/app'
-import { getAuth, onAuthStateChanged, signInWithEmailAndPassword } from 'firebase/auth'
-import { get, getDatabase, ref, set } from 'firebase/database'
-import {
+const { initializeApp } = require('firebase/app')
+const { getAuth, onAuthStateChanged, signInWithEmailAndPassword } = require('firebase/auth')
+const { get, getDatabase, ref, set } = require('firebase/database')
+const {
   addDoc,
   collection,
   collectionGroup,
@@ -12,8 +12,8 @@ import {
   orderBy,
   query,
   where,
-} from 'firebase/firestore'
-import { getFunctions } from 'firebase/functions'
+} = require('firebase/firestore')
+const { getFunctions } = require('firebase/functions')
 
 let app, db, functions, auth, firestore;
 
