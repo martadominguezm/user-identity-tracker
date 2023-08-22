@@ -1,12 +1,20 @@
 // index.js
-const {     getSessions,
+const {
+    getSessions,
     calculateProbabilities,
     improveUserExperience,
-    accessControl } = require('./lib/_helpers');
+    accessControl,
+    initializeFirebase
+} = require('./lib/_helpers');
+
+function initialize(firebaseConfig) {
+    initializeFirebase(firebaseConfig);
+}
 
 module.exports = {
     getSessions,
     calculateProbabilities,
     improveUserExperience,
-    accessControl
+    accessControl,
+    initialize 
 };
