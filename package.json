@@ -1,6 +1,6 @@
 {
   "name": "user-identity-tracker",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Una biblioteca esencial para aplicaciones Node.js que implementa una identificación continua de usuarios, utilizando datos de bases de datos para personalizar la interfaz y optimizar el control de acceso en tiempo real.",
   "main": "index.js",
   "directories": {

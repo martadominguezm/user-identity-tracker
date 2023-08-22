@@ -1,10 +1,10 @@
 // index.js
-const {
+import { 
     getSessions,
     calculateProbabilities,
     improveUserExperience,
     accessControl
-} = require('./lib/_helpers');
+} from './lib/_helpers'
 
 
 let    addDoc;
@@ -25,7 +25,7 @@ let    query;
 let    ref;
 let    set;
 let    signInWithEmailAndPassword;
-let     where;
+let    where;
 
 
 function importFbFunctions(
@@ -54,7 +54,7 @@ function importFbFunctions(
 
 
 
-module.exports = {
+export {
     getSessions,
     calculateProbabilities,
     improveUserExperience,
